@@ -1,0 +1,27 @@
+.featuredProducts {
+  margin: calc(100vh / 7) calc(20vw / 2);
+  gap: 10px;
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: calc(15vh / 2);
+
+    h1 {
+      flex: 2;
+      text-transform: capitalize;
+      font-size: 24px;
+    }
+    p {
+      flex: 3;
+      color: gray;
+    }
+  }
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: calc(10vw / 4);
+  }
+}

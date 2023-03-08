@@ -1,0 +1,51 @@
+.products {
+  padding: 50px 50px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+
+  .left {
+    flex: 1;
+    position: sticky;
+    height: 100%;
+    top: 50px;
+
+    .filterItem {
+      margin-bottom: 25px;
+
+      h2 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+      .inputItem {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        font-size: 14px;
+        gap: 5px;
+        span {
+          text-align: center;
+          font-size: 16px;
+        }
+        input[type="range"] {
+          outline: none;
+        }
+
+        label {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  .right {
+    flex: 3;
+
+    .catImg {
+      width: 100%;
+      height: calc(100vh / 4);
+      margin-bottom: calc(100vh / 20);
+      object-fit: cover;
+    }
+  }
+}

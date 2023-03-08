@@ -1,0 +1,39 @@
+.slider {
+  height: calc(100vh - 80px);
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+
+  .container {
+    width: 300vw;
+    height: 100%;
+    display: flex;
+    transition: all 1s ease;
+
+    img {
+      width: 100vw;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .arrs {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 50%;
+    bottom: 30%;
+    left: 50%;
+    top: 70%;
+
+    bottom: 80px;
+    margin: auto;
+
+    .arr {
+      color: rgb(91, 91, 90);
+      font-size: 30px;
+    }
+    :hover.arr {
+      color: rgb(251, 3, 52);
+    }
+  }
+}
